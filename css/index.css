@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.head .head-head {
+    width: 100%;
+    height: 80px;
+}
+
+.head .head-bottm {
+    height: 46px;
+    font-size: 14px;
+    background-color: #db4946;
+}
+
+.head .head-head {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-text {
+    line-height: 85px;
+    color: #333;
+    font-size: 12px;
+}
+
+.head img {
+    margin-top: 15px;
+}
+
+.head .head-button ul {
+    list-style-type: none;
+}
+
+.head .head-button li {
+    float: left;
+    line-height: 50px;
+    margin-right: 80px;
+    color: #fff;
+}
+
+
+/* 主体 */
+
+.body img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* 主体二 */
+
+.body-two {
+    display: flex;
+    width: 100%px;
+    height: 550px;
+}
+
+.body-two img {
+    width: 107px;
+    height: 104px;
+    margin-left: 95px;
+}
+
+.body-two .container {
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-two .bto-text {
+    margin: 46px auto 30px;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+}
+
+.body-two .tect {
+    color: #999;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    text-align: center;
+}
+
+.bto-value {
+    float: left;
+    width: 280px;
+    margin-top: 90px;
+    margin-right: 120px;
+}
+
+.body-two li {
+    list-style-type: none;
+}
+
+.body-two .buttons {
+    width: 104px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    background: #E63837;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* 底部 */
+
+.footer {
+    height: 58px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #f0f0f0;
+    margin-top: 0;
+    height: 56px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
